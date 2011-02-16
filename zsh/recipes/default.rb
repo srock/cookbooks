@@ -21,12 +21,6 @@ package "zsh" do
   action :install
 end
 
-case node[:platform]
-when "ubuntu","debian"
-  package "zsh-doc" do
-    action :install
-  end
-when "centos"
   package "zsh-html" do
     action :install
   end
