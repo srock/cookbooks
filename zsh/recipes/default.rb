@@ -21,6 +21,6 @@ package "zsh" do
   action :install
 end
 
-package "zsh-html" do
+package "zsh-doc" do
     action :install
 end
